@@ -11,17 +11,17 @@ This project is a simple sentiment analysis web application built using Flask. I
 5. [License](###license)
 6. [Contact](###contact)
 
-### Introduction
+### 1. Introduction
 
 The Sentiment Analysis Web Application allows users to input a piece of text, processes it to remove stop words and punctuation, and then analyzes its sentiment using the VADER Sentiment Analysis tool. The results are displayed on the same web page, showing positive, negative, neutral scores, and a compound score.
 
-### Features
+### 2. Features
 
 - **Text Preprocessing:** *Converts text to lowercase, removes digits, and stop words.*
 - **Sentiment Analysis:** *Uses VADER Sentiment Analysis to evaluate the sentiment of the processed text.*
 - **Web Interface:** *Simple and intuitive web interface for inputting text and viewing results.*
 
-### Installation
+### 3. Installation
 *To set up and run this project locally, follow these steps:*
 
 1. **Clone the Repository:**
@@ -37,7 +37,7 @@ The Sentiment Analysis Web Application allows users to input a piece of text, pr
 4. **Download NLTK Data:**
 `python -m nltk.downloader stopwords`
 
-### Usage
+### 4. Usage
 1. **Run the Flask Application:**
 `flask run`
 
@@ -52,10 +52,10 @@ The Sentiment Analysis Web Application allows users to input a piece of text, pr
 The project includes a Procfile for deployment using Gunicorn:
 `web: gunicorn app:app`
 
-### License
+### 5. License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Contact
+### 6. Contact
 If you have any questions, issues, or suggestions, please contact:
 - [Email:](bholasankarnanda123@gmail.com)
 - [GitHub Issues:](https://github.com/Kanha78150)
