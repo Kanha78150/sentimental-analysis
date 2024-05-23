@@ -25,40 +25,40 @@ The Sentiment Analysis Web Application allows users to input a piece of text, pr
 *To set up and run this project locally, follow these steps:*
 
 1. **Clone the Repository:**
-   git clone https://github.com/Kanha78150/sentimental-analysis.git
-   *cd sentimental-analysis*
+   `git clone https://github.com/Kanha78150/sentimental-analysis.git`
+   `cd sentimental-analysis`
 
-**Set Up a Virtual Environment:**
+2. **Set Up a Virtual Environment:**
 `python -m venv venv`
 
-**Install Dependencies:**
+3. **Install Dependencies:**
 `pip install -r requirements.txt`
 
-**Download NLTK Data:**
+4. **Download NLTK Data:**
 `python -m nltk.downloader stopwords`
 
 ### Usage
-*Run the Flask Application:*
+1. **Run the Flask Application:**
 `flask run`
 
-**Open in Browser:**
-Open your web browser and go to ```http://127.0.0.1:5002``` to view the application.
+2. **Open in Browser:**
+- [Open your web browser and go to (http://127.0.0.1:5002) to view the application.]
 
-**Input Text and Analyze:**
-*Enter the text you want to analyze in the provided text box.
-*Click the submit button to see the sentiment analysis results.
+3. **Input Text and Analyze:**
+- Enter the text you want to analyze in the provided text box.
+- Click the submit button to see the sentiment analysis results.
 
-**Procfile**
+3. **Procfile**
 The project includes a Procfile for deployment using Gunicorn:
 `web: gunicorn app:app`
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ### Contact
 If you have any questions, issues, or suggestions, please contact:
+- [Email:](bholasankarnanda123@gmail.com)
+- [GitHub Issues:](https://github.com/Kanha78150)
 
-**Email:** ```bholasankarnanda123@gmail.com```
-**GitHub Issues:** ```https://github.com/Kanha78150/sentimental-analysis```
 
 # Thank you for using the Sentiment Analysis Web Application!
