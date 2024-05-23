@@ -27,7 +27,7 @@ The Sentiment Analysis Web Application allows users to input a piece of text, pr
 *To set up and run this project locally, follow these steps:*
 
 1. **Clone the Repository:**
-   `git clone https://github.com/Kanha78150/sentimental-analysis.git`
+   git clone https://github.com/Kanha78150/sentimental-analysis.git
    *cd sentimental-analysis*
 
 **Set Up a Virtual Environment:**
